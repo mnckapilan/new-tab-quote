@@ -1,0 +1,37 @@
+body {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+  font-family: "Helvetica Thin", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  text-align: center;
+}
+
+.quote-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quote-text {
+  margin-bottom: 40px;
+}
+
+.quote-author {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+  .quote-text {
+    font-size: 20px;
+  }
+  
+  .quote-author {
+    font-size: 12px;
+  }
+}

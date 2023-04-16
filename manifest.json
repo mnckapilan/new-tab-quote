@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Thiruvalluvar Quote",
+  "version": "1.0",
+  "description": "Displays a Thiruvalluvar quote on each new tab.",
+  "permissions": ["scripting"],
+  "action": {
+    "default_title": "Thiruvalluvar Quote"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
